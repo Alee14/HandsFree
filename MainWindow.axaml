@@ -1,0 +1,21 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="HandsFree.MainWindow"
+        Title="HandsFree">
+    <StackPanel>
+<TabControl>
+    <TabItem Header="Home">
+        <Button Width="160" >My Button</Button>
+    </TabItem>
+    <TabItem Header="Library">
+        <TextBlock Text="Now on the library page"></TextBlock>
+    </TabItem>
+    <TabItem Header="Store">
+        <TextBlock Text="Now on the store page"></TextBlock>
+    </TabItem>
+</TabControl>
+    </StackPanel>
+</Window>
